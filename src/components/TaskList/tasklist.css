@@ -1,0 +1,45 @@
+.tasklist {
+  padding: 10px;
+  background-color: #f5cb5c;
+}
+
+.tasklist .title {
+  color: #242423;
+  background-color: rgba(0, 0, 0, 0.07);
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tasklist .content {
+  padding: 16px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasklist .content .empty-list {
+  text-align: center;
+  border: 1px dashed white;
+  border-color: black;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.tasklist .button {
+  color: black;
+  width: 100%;
+  font-weight: bold;
+  background-color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tasklist .button:hover {
+  cursor: pointer;
+  background-color: #fdf3d8;
+  transition: ease-in-out 0.3s;
+}
